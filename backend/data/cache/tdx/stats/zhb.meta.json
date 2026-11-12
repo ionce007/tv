@@ -1,0 +1,32 @@
+{
+  "validation_version": 1,
+  "downloaded_at": "2026-11-11T09:25:13+08:00",
+  "stats_date": "20261110",
+  "stats_date_coverage": 0.99334402,
+  "stats_date_counts": {
+    "20261110": 16118,
+    "20261030": 4,
+    "20261012": 2,
+    "20260402": 2,
+    "20261109": 58,
+    "20250903": 2,
+    "20240809": 2,
+    "20261106": 12,
+    "20261014": 2,
+    "20261028": 4,
+    "20261104": 2,
+    "20261103": 4,
+    "20261105": 6,
+    "20211011": 2,
+    "20260910": 2
+  },
+  "source_resource_path": "zhb.zip",
+  "cache_path": "E:\\SourceCode\\stock-analysis\\backend\\data\\cache\\tdx\\stats\\zhb.zip",
+  "size_bytes": 1339270,
+  "sha256": "801f8323b46abcb9a6cdf4364b85b5be9799881ddefcb193b9197dacfa5543a8",
+  "stat_rows": 8113,
+  "stat2_rows": 8113,
+  "checked_target_trade_date": "20261111",
+  "checked_previous_trade_date": "20261110",
+  "code_overlap_ratio": 1.0
+}

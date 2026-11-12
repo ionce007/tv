@@ -1,0 +1,57 @@
+# 临时备份文件
+back_file/
+back_file
+
+# ================= Python 后端专属 =================
+# 虚拟环境（体积大且包含本地绝对路径，绝对不能传）
+backend/.venv/
+.venv/
+venv/
+
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ================= Node.js 前端专属 =================
+# 前端依赖包（体积极大，代码拉下来后 npm install 即可）
+frontend/node_modules/
+
+# 前端构建产物
+frontend/dist/
+frontend/build/
+frontend/.next/
+
+# ================= 环境变量与敏感配置 =================
+# 防止后端或前端的本地密码、IP地址泄露
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# ================= 编辑器与系统文件 =================
+# 如果你在 VSCode 里的配置不想同步给别人，可以保留下面这行
+# 如果你希望团队共享你的 VSCode 设置（如 settings.json），就不写 .vscode/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ================= 数据与缓存（核心防守） =================
+# 尽管你的数据在 D:\StockData（不在项目里），但以防万一，拦截一下可能产生的缓存
+*.parquet
+*.csv
+*.db
+*.sqlite
+*.log
+_single_ticks_progress.json
+failed_ticks.json
+
+# ================= 测试与临时文件 =================
+# 临时测试脚本或输出文件
+test_*.json
+*.tmp
